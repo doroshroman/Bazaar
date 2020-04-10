@@ -2,7 +2,8 @@
 
 ## To-Do
 - [x] Make basic use-cases of the application.
-- [ ] Make data sketch.
+- [x] Make data sketch.
+- [] Add style to products page.
 
 ## Application Flow
 Buyer's perspective

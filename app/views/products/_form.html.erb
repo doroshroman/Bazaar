@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= form.label :rating %>
-    <%= form.text_field :rating %>
+    <%= form.number_field :rating, :step => "0.01"%>
   </div>
 
   <div class="field">
@@ -33,7 +33,7 @@
 
   <div class="field">
     <%= form.label :price %>
-    <%= form.text_field :price %>
+    <%= form.number_field :price, :step => "0.1"%>
   </div>
 
   <div class="actions">
