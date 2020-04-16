@@ -1,4 +1,10 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+one:
+  title: MyString
+  rating: 4.25
+  description: MyText
+  image_url: robot.jpg
+  price: 9.99
 
 robot:
   title: Robot
