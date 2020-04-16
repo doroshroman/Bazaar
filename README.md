@@ -4,6 +4,8 @@
 - [x] Make basic use-cases of the application.
 - [x] Make data sketch.
 - [x] Add style to products page.
+- [x] Add validation.
+- [x] Add unit testing.
 
 ## Application Flow
 Buyer's perspective

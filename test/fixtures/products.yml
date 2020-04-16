@@ -1,15 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  rating: 1.5
-  description: MyText
-  image_url: MyString
-  price: 9.99
+robot:
+  title: Robot
+  rating: 4.2
+  description: Robots will kill us all in the future.
+  price: 49.50
+  image_url: robot.jpg
 
-two:
-  title: MyString
-  rating: 1.5
-  description: MyText
-  image_url: MyString
-  price: 9.99
+fitness:
+  title: Fitness watch
+  rating: 4.8
+  description: Sport is our live. Track your workout details.
+  price: 25.55
+  image_url: fitness_tracker.jpg
