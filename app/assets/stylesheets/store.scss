@@ -19,7 +19,7 @@
         h3{
             margin-left: 140px;
         }
-        p, div.price_line {
+        p, .price_line {
             margin-left: 140px;
             margin-top: 0.5em;
             margin-bottom: 0.8em;
@@ -28,6 +28,9 @@
             color: #fc0362;
             font-size: 20px;
             font-weight: bold;
+        }
+        form,div {
+            display: inline;
         }
     }
 }
