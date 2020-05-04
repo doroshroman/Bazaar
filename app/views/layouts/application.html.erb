@@ -16,6 +16,9 @@
     </div>
     <div id="columns">
       <div id="side">
+        <div id="cart" >
+          <%= render_if @cart && @cart.line_items.any?, @cart %>
+        </div>
         <ul>
           <li><a href="http://www....">Home</a></li>
           <li><a href="http://www..../faq">Questions</a></li>
