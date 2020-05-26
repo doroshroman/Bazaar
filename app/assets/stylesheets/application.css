@@ -50,24 +50,27 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
     background: white;
     flex: 1;
 }
+
 #side {
     padding: 1em 2em;
-    background: #141;
-    form, div {
-        display: inline;
-    }
-    input {
-        font-size: small;
-    }
-    #cart {
-        font-size: smaller;
-        color: white;
-    table {
-        border-top:
-        1px dotted #595;
-        border-bottom: 1px dotted #595;
-        margin-bottom: 10px;
-    }
+    background: #141;   
+}
+#cart {
+    font-size: smaller;
+    color: white;
+}
+form, div {
+    display: inline;
+}
+
+input {
+    font-size: small;
+}
+table {
+    border-top:
+    1px dotted #595;
+    border-bottom: 1px dotted #595;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -92,21 +95,19 @@ a {
 }   
 #banner .title {
     display: none;
-    }
 }
-.depot_form {
-    fieldset {
+.depot form div {
+    margin-bottom: 0.3em;
+    }
+fieldset {
     background: #efe;
-    legend {
+    
+}
+legend {
     color: #dfd;
     background: #141;
     font-family: sans-serif;
     padding: 0.2em 1em;
-    }
-    div {
-    margin-bottom: 0.3em;
-    }
-    }
 }
 .locale {
     float: right;

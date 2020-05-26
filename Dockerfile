@@ -23,4 +23,5 @@ EXPOSE 3000
 RUN yarn install --check-files
 
 # Start the main process.
-CMD ["rails", "server", "-b", "0.0.0.0"]
+RUN if [ "$RAILS_ENV" = "production" ]; then SECRET_KEY_BASE=$(rake secret) bundle exec rake assets:precompile; fi
+# CMD ["rails", "server", "-b", "0.0.0.0"]
